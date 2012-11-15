@@ -1,13 +1,9 @@
-use strict;
-use warnings;
-package Acme::Experiment::OALDERS;
+package ACME::Experiment::C;
 {
-  $Acme::Experiment::OALDERS::VERSION = '0.02';
+  $ACME::Experiment::C::VERSION = '0.02';
 }
 
 1;
-
-# ABSTRACT: Experimental module to test PAUSE permissions.
 
 __END__
 
@@ -15,7 +11,7 @@ __END__
 
 =head1 NAME
 
-Acme::Experiment::OALDERS - Experimental module to test PAUSE permissions.
+ACME::Experiment::C
 
 =head1 VERSION
 

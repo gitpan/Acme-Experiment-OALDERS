@@ -7,9 +7,7 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
-    "English" => 0,
-    "Module::Build" => "0.3601",
-    "Test::More" => 0
+    "Module::Build" => "0.3601"
   },
   "configure_requires" => {
     "ExtUtils::MakeMaker" => "6.30",
@@ -20,7 +18,7 @@ my %module_build_args = (
     "Olaf Alders <olaf\@wundercounter.com>"
   ],
   "dist_name" => "Acme-Experiment-OALDERS",
-  "dist_version" => "0.01",
+  "dist_version" => "0.02",
   "license" => "perl",
   "module_name" => "Acme::Experiment::OALDERS",
   "recommends" => {},

@@ -12,9 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Experimental module to test PAUSE permissions.",
   "AUTHOR" => "Olaf Alders <olaf\@wundercounter.com>",
   "BUILD_REQUIRES" => {
-    "English" => 0,
-    "Module::Build" => "0.3601",
-    "Test::More" => 0
+    "Module::Build" => "0.3601"
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30",
@@ -28,7 +26,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
